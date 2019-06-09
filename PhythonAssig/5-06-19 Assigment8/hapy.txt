@@ -1,0 +1,5 @@
+regorianCalendar cal = new GregorianCalendar();
+SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+format.setCalendar(cal);
+String result = format.format(cal.getTime());
+System.out.println(result);//today is 2017-05-25
